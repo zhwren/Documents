@@ -1,0 +1,9 @@
+
+Electron Kinetic Energy ||  160keV     200keV
+========================||====================
+Energy  ||              ||  22357.5    29945.2
+Deteted || Direct       ||  18394.6    24830.7
+ (MeV)  || Scattering   ||   3962.9    5114.48
+========================||====================
+Energy Deposit(MeV)     ||  2332.66    2885.85
+Energy Reflected(MeV)   ||  2688.23    3379.48
