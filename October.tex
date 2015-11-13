@@ -1,5 +1,51 @@
 \documentclass{beamer}
-\usetheme{Mystyle}
+
+\useoutertheme[height=0.1\paperheight,width=0.1\paperwidth,hideothersubsections]{sidebar}
+\usecolortheme{whale}
+\usecolortheme{orchid}
+
+\useinnertheme[shadow]{rounded}
+\setbeamercolor{title page}{fg=blue!70,bg=blue}
+\setbeamercolor{logo}{bg=blue!60}
+\setbeamercolor{frametitle}{fg=black,bg=blue!60}
+%\setbeamercolor{section in sidebar}{fg=red}
+\setbeamercolor{block title}{bg=blue!28!white,fg=blue}
+\setbeamercolor{block body}{bg=red!15!white}
+\setbeamercolor{sidebar}{bg=blue!70}
+
+\setbeamertemplate{background canvas}[vertical shading][bottom=white,top=blue!25]
+\usefonttheme{serif}
+\setbeamertemplate{navigation symbols}{}
+\usepackage{CJKutf8}
+%\usepackage{subfigure}
+\usepackage{xmpmulti}
+\usepackage{colortbl,dcolumn}
+\graphicspath{{October/}}
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+\logo{\includegraphics[width=0.1\paperwidth]{huoqiang.jpg}}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+\raggedright
+\def\hilite<#1>{\temporal<#1>{\color{blue!35}}{\color{magenta}}{\color{blue!75}}}
+
+\newcolumntype{H}{>{\columncolor{blue!20}}c!{\vrule}}
+\newcolumntype{H}{>{\columncolor{blue!20}}c}
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
+\bibliographystyle{plain}
+\newcommand{\yihao}{\fontsize{30pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}  
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont} 
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+\newcommand{\ThankYouPage}{
+  \begin{frame}
+    \yihao \centering \textcolor{blue}
+    {Thank You!}
+  \end{frame}
+}
+
 \begin{document}
 \begin{CJK*}{UTF8}{gkai}
   \title{十月工作总结}
