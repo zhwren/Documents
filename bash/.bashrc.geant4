@@ -1,0 +1,18 @@
+############################################################
+# Author       : ZhuHaiWen                                 #
+# Email        : zhuhw@ihep.ac.cn/zhwren0211@whu.edu.cn    #
+# Last modified: 2015-11-26 10:22:1448504562
+# Filename     : .bashrc.geant4
+# Phone Number : 18625272373                               #
+# Discription  :                                           #
+############################################################
+#!/bin/bash
+
+source ~/.bashrc.root
+source /usr/local/share/Geant4-10.1.2/geant4make/geant4make.sh
+
+export G4WORKDIR=/home/zhwren/Workfs/geant4_workdir
+export PATH=${G4WORKDIR}/bin/Linux-g++:${PATH}
+export G4UI_USE=1
+export G4VIS_USE=1
+export LD_LIBRARY_PATH=${G4WORKDIR}/tmp/Linux-g++/GenSim:${LD_LIBRARY_PATH}

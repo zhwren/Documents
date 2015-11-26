@@ -1,0 +1,11 @@
+############################################################
+# Author       : ZhuHaiWen                                 #
+# Email        : zhuhw@ihep.ac.cn/zhwren0211@whu.edu.cn    #
+# Last modified: 2015-11-26 10:20:1448504434
+# Filename     : .bashrc.root
+# Phone Number : 18625272373                               #
+# Discription  :                                           #
+############################################################
+#!/bin/bash
+
+source /home/zhwren/Software/root-6.04.00/bin/thisroot.sh

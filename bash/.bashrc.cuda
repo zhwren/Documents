@@ -1,0 +1,12 @@
+############################################################
+# Author       : ZhuHaiWen                                 #
+# Email        : zhuhw@ihep.ac.cn/zhwren0211@whu.edu.cn    #
+# Last modified: 2015-11-26 13:31:1448515889
+# Filename     : .bashrc.cuda
+# Phone Number : 18625272373                               #
+# Discription  :                                           #
+############################################################
+#!/bin/bash
+
+export PATH=/usr/local/cuda-7.5/bin:${PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64/:${LD_LIBRARY_PATH}
