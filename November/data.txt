@@ -1,0 +1,6 @@
+Total Event Number 5E7
+               Number    Energy(MeV)
+Reflected      9127588   424715
+Polyethelene   12312964  459582
+Pb             28042373  1.73714e+06
+Transmission   517075    28308.5
