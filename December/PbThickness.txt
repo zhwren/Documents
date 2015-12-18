@@ -1,0 +1,6 @@
+PbThickness(mm)  GeneratedNumber  GeneratedEnergy(MeV)  TransmissionNumber  TransmissionEnergy(MeV)
+1                90000000         3.23417e+06           532430              41242.7
+2                90000000         3.23417e+06           39063               3184.57
+3                90000000         3.23417e+06           3815                318.186
+4                90000000         3.23417e+06           416                 35.0019
+5                90000000         3.23417e+06           55                  4.63891
